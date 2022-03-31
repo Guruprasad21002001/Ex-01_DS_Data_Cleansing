@@ -20,6 +20,7 @@ Save the Clean data to the file
 
 
 # CODE
+```
 import pandas as pd
 df=pd.read_csv('Data_set.csv')
 print('Befor Cleansing the data:')
@@ -33,9 +34,10 @@ df['watchers']=df['watchers'].fillna(df['watchers'].mean())
 print(df)
 print('After Cleansing the data:')
 print(df.isnull().sum())
+```
 # OUPUT
 ![op1](https://user-images.githubusercontent.com/95342910/160974372-3d2d2d4e-4e7e-47c9-8c4b-40ea966194c8.jpeg)
 ![op2](https://user-images.githubusercontent.com/95342910/160974393-c9afe7cb-28ad-4ebb-911c-4ef0bab0731a.jpeg)
-#RESULT
+# RESULT
 Thus the given data is cleansed and the output is obtained.
 
